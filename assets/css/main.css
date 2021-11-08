@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Montserrat|Great+Vibes|Satisfy&display=swap");
+* {
+  box-sizing: border-box; }
+
+html, body, div, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font: #FFF; }
+
+body {
+  font-family: Merriweather,'Helvetica Neue',Arial,sans-serif; }
+
+hr {
+  max-width: 50px;
+  border-color: #C80122;
+  border-width: 3px; }
+
+hr.light {
+  border-color: #FFF; }
+
+a {
+  color: #C80122;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s; }
+
+a:hover,
+a:focus {
+  color: #C80122;
+  opacity: 0.5;
+  text-decoration: none; }
+
+#first-link {
+  color: #B60029; }
+
+#second-link {
+  color: #C80122; }
+
+#third-link {
+  color: #E42B13; }
+
+#fourth-link {
+  color: #FF5503; }
+
+#fifth-link {
+  color: #FF8900; }
+
+p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5; }
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7); }
+
+.wrapper {
+  margin: 50px 0px;
+  background: url("https://i.pinimg.com/736x/11/ac/af/11acafdc3b274fde2b143ec73bdf2633.jpg") repeat top center fixed; }
+  .wrapper h3 {
+    text-align: center; }
+  .wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10vh 0px;
+    padding: 5px;
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 50px; }
+  .wrapper li {
+    height: 47vh;
+    max-width: 90vw;
+    min-width: 200px; }
+  .wrapper img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom; }
+
+.navbar-default {
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+  width: 100vw;
+  color: #C80122;
+  background-color: #FFF; }
+
+.navbar-default .navbar-header .navbar-brand {
+  font-weight: 700;
+  color: #C80122; }
+
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+  opacity: .7; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #C80122; }
+
+::-moz-selection {
+  text-shadow: none;
+  color: #FFF;
+  background: #222; }
+
+::selection {
+  text-shadow: none;
+  color: #FFF;
+  background: #222; }
+
+img::selection {
+  color: #FFF;
+  background: 0 0; }
+
+img::-moz-selection {
+  color: #FFF;
+  background: 0 0; }
+
+body {
+  webkit-tap-highlight-color: #222; }
+
+#footer {
+  background-image: url("../images/bananas.png");
+  color: #222;
+  padding: 30px;
+  font-weight: 700; }
+  #footer a {
+    color: #C80122; }
+
+/*@media (max-aspect-ratio: 1/1) {
+  li {
+    height: 30vh;
+  }
+}
+
+@media (max-height: 480px) {
+  li {
+    height: 80vh;
+  }
+}*/
+
+/*# sourceMappingURL=main.css.map */
